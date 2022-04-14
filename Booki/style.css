@@ -1,0 +1,29 @@
+* {
+
+    box-sizing: border-box;
+    /*font-family: 'Satisfy', cursive;*/
+}
+/*Partie desktop*/
+
+@media screen and (min-width: 992px) {
+    header {
+        padding: 20px;
+     
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    header > img {
+        display: flex;
+        max-height: 25px;
+        justify-content: flex-start;
+        padding: 20px;
+    }
+    a {
+        font-size: 25px;
+        margin-right: 5%;
+        text-align: center;
+        float: right;
+        text-decoration: none;
+    }
+
+}
