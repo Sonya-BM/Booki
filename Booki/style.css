@@ -7,20 +7,19 @@
 
 @media screen and (min-width: 992px) {
     header {
-        padding: 20px;
-     
+padding: 5%;
         align-items: center;
         flex-wrap: wrap;
     }
-    header > img {
-        display: flex;
-        max-height: 25px;
+    img {
+
+        display: inline-flex;
         justify-content: flex-start;
-        padding: 20px;
     }
     a {
+
         font-size: 25px;
-        margin-right: 5%;
+        margin: 2%;
         text-align: center;
         float: right;
         text-decoration: none;
