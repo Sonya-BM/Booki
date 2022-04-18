@@ -1,0 +1,29 @@
+body{
+box-sizing: border-box;
+width: 100%;
+font-family: 'Satisfy', cursive;
+}
+@media screen and (min-width: 992px) {
+   header{
+       padding:4% ;
+   }
+    header nav {
+        display: flex;
+        justify-content: space-between;
+    list-style: none;
+    } 
+
+    header ul {
+       display: flex;
+justify-content: space-between; /*aligne le texte*/
+list-style: none;
+    } 
+    header li{
+        margin-right: 60px;
+    }
+   header a{
+              text-decoration: none;
+        list-style: none;
+    }
+  
+          }
