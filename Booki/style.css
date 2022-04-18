@@ -1,0 +1,47 @@
+body {
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Satisfy', cursive;
+}
+/*Partie desktop*/
+
+@media screen and (min-width: 992px) {
+    header {
+        padding: 4%;
+    }
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    header ul {
+        display: flex;
+        justify-content: space-between;
+        /*aligne le texte*/
+        list-style: none;
+    }
+
+    header li {
+
+        margin-right: 60px;
+    }
+    .bordertop{
+        border-top: 2px solid blue;
+        padding-top: 67%;
+    }
+    .bordertop:hover{
+        border-top: 2px solid blue;
+        padding-top: 67%;
+    }
+    header a {
+        text-decoration: none;
+        list-style: none;
+    }
+  nav a:hover{
+    border-top: 2px solid blue;
+    padding-top: 107%;
+
+  }
+
+}
