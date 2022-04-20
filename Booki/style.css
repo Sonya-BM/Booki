@@ -3,45 +3,109 @@ body {
     box-sizing: border-box;
     width: 100%;
     font-family: 'Raleway', sans-serif;
-    margin: 0;
     padding: 0;
+
     }
-/*Partie desktop*/
+@media screen and (min-width: 993px){
+    /*Partie desktop*/
+header {
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+margin-right: 50%;
+
+}
+header li {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20%;
+    padding-top: 20%; /*Va créer l'espace pour le border*/
+}
+
+header li:hover {
+    border-top: 2px solid blue;
+
+}
+header nav a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+
+}
+.intro{
+    margin-left:5%
+}
+    .introtitre{
+font-size: large; 
+ }
+
+}
 
 @media screen and (max-width: 992px) {
     header {
         display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    header img {
-        padding-top: 5%;
-    }
-    header nav {
-        display: flex;
-        justify-content: flex-end;
-    }
-    header ul {
-        display: flex;
         justify-content: space-between;
+          align-items: center;
+          margin-left: 5%;
+      }
+      
+      header nav {
+          display: flex;
+          justify-content: flex-end;
+      }
+      header ul {
+          display: flex;
+          justify-content: space-between;
+      margin-right: 50%;
+      
+      }
+      header li {
+          display: flex;
+          justify-content: space-around;
+          margin-right: 20%;
+          padding-top: 20%; /*Va créer l'espace pour le border*/
+      }
+      
+      header li:hover {
+          border-top: 2px solid blue;
+      
+      }
+      header nav a {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          color: black;
+          text-decoration: none;
+       
     }
-    header li {
-        display: flex;
-        justify-content: space-around;
-        margin-right: 20%;
-        padding-top: 30%;
-    }
+/*Partie introduction*/
 
-    header li:hover {
-        border-top: 2px solid blue;
-
-    }
-    header nav a {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        color: black;
-        text-decoration: none;
-    }
-
+.intro{
+    margin-left:5%
+}
+    .introtitre{
+font-size: large; 
+ }
+ .input-intro{
+     border: 2px solid black;
+     height: 50px;
+ }
+.bouton-intro{
+    border: 2px solid blue ;
+    border-radius: 5px 40px 40px 5px;
+height: 53px;
+background-color: blue;
+}
 }
