@@ -78,6 +78,77 @@ form input::placeholder{
     width: 130px;
 }
 
+ /*Partie recherche*/
+ .rechercher{
+    display: flex;
+}
+form i{
+   padding: 1%;
+   background-color: #f2f2f2;
+   border-radius:10px 0px 0px 10px;
+}
+.input-intro{
+   border: 1px solid #f2f2f2;
+width: 230px;
+}
+form input::placeholder{
+   padding-left: 20px;
+}
+.bouton-intro{
+   border-radius:0px 10px 10px 0px;
+   border: #0065fc;
+   background-color:#0065fc;
+   color: white;
+   font-weight: bold;
+   width: 130px;
+}
+/*Partie filtre*/
+.filtre{
+   display: flex;
+   justify-items: center;
+align-items: center;
+width: 80%;
+margin-top: 2%;
+}
+.filtre h2{
+margin-right:2%;
+}
+.filtre i{
+   display: inline-flex;
+justify-content: center;
+   color: blue;
+   border: #0065fc;
+   border-radius: 100%;
+   background-color:#DEEBFF;
+   width: 50px;
+  height: 50px;
+  margin-right: 2%;
+  align-items: center;
+}
+
+.filtre div{
+   display: flex;
+align-items: center;
+border: 2px solid #f2f2f2;;
+border-radius: 20px;
+margin-left:2%;
+}
+.economie{
+ 
+text-align: center;
+
+   width: 90px;
+}
+.familial{
+   width:70px;
+}
+.romantique{
+   width: 100px;
+}
+.animaux{
+   width: 150px;
+}
+
 }
 
 @media screen and (max-width: 992px) {
@@ -182,6 +253,9 @@ border-radius: 20px;
 margin-left:2%;
 }
 .economie{
+  
+text-align: center;
+
     width: 90px;
 }
 .familial{
