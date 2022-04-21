@@ -131,7 +131,7 @@ font-size: large;
      display: flex;
 }
 form i{
-    padding: 2%;
+    padding: 1%;
     background-color: #f2f2f2;
     border-radius:10px 0px 0px 10px;
 }
@@ -150,6 +150,47 @@ form input::placeholder{
     font-weight: bold;
     width: 130px;
 }
+/*Partie filtre*/
+.filtre{
+    display: flex;
+    justify-items: center;
+align-items: center;
+width: 80%;
+margin-top: 2%;
+}
+.filtre h2{
+margin-right:2%;
+}
+.filtre i{
+    display: inline-flex;
+justify-content: center;
+    color: blue;
+    border: #0065fc;
+    border-radius: 100%;
+    background-color:#DEEBFF;
+    width: 50px;
+   height: 50px;
+   margin-right: 2%;
+   position: static;
+}
 
-
+.filtre div{
+    display: flex;
+align-items: center;
+border: 2px solid #f2f2f2;;
+border-radius: 20px;
+margin-left:2%;
+}
+.economie{
+    width: 90px;
+}
+.familial{
+    width:70px;
+}
+.romantique{
+    width: 100px;
+}
+.animaux{
+    width: 150px;
+}
 }
