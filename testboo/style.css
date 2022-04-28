@@ -215,11 +215,12 @@ h1 {
 }
 .cadregauche h2{
     width: 1000px;
-margin-left: 10%;
+    /*ne pas enlever* le width*/
+margin-left: 3%;
 }
 .afficher{
-    display: inline-flex;
-justify-content: left;
+    font-weight: bold;
+    margin-right: 70%;
 }
 .textegauche{
     padding: 0%;
@@ -294,9 +295,20 @@ margin-left: 20px;
 }
 .textedroite{
     margin-left: 2%;
+    
 }
-
-
+.cadredroite h2{
+    margin-right: 20%;
+    padding: 0%;
+}
+.checked-right{
+       margin-top: 6%;
+    padding: 0%;
+}
+.cadredroite h2{
+    font-weight: bold;
+    margin-left: 4%;
+}
 
 .droiteetoile{
  float: left;
