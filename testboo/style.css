@@ -221,6 +221,9 @@ margin-left: 10%;
     display: inline-flex;
 justify-content: left;
 }
+.textegauche{
+    padding: 0%;
+}
 .item {
     
     width: 280px;
@@ -231,8 +234,10 @@ justify-content: left;
 }
 .item h4{
     margin-left:8%;
+    margin-top: 0%;
 }
 .item p{
+    margin-top: 0%;
 margin-left: 8%;
 }
 .item img {
@@ -243,7 +248,11 @@ margin-left: 8%;
     width: 90%;
     height:50%;
 }
-
+.etoilegauche{
+    margin-left: 5%;
+          float: left;
+color: lightgrey;
+}
 
 .cadredroite {
     display: inline-flex;
