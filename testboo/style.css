@@ -225,12 +225,17 @@ justify-content: left;
     padding: 0%;
 }
 .item {
-    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
     width: 280px;
     height: 220px;
     margin: 10px;
     border-radius: 10% 10% ;
     background-color: white;
+}
+.item:hover{
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+
 }
 .item h4{
     margin-left:8%;
@@ -266,11 +271,17 @@ margin-left: 20px;
 
 .itemdroite{
     display: inline-flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
         width: 390px;
     height: 150px;
     margin: 10px;
     border-radius: 10% 10% ;
     background-color: white;
+}
+.itemdroite:hover{
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+
 }
 .itemdroite img {
     
@@ -284,9 +295,11 @@ margin-left: 20px;
 .textedroite{
     margin-left: 2%;
 }
+
+
+
 .droiteetoile{
-    margin-left: 5%;
-          float: left;
+ float: left;
 color: lightgrey;
 }
 .checked{
