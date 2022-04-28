@@ -216,12 +216,23 @@ h1 {
     width: 100%;
 margin-left: 10%;
 }
+.afficher{
+    display: inline-flex;
+justify-content: left;
+}
 .item {
     
     width: 250px;
+    height: 300px;
     margin: 10px;
     border-radius: 10% 10% ;
     background-color: white;
+}
+.item h4{
+    margin-left:8%;
+}
+.item p{
+margin-left: 8%;
 }
 .item img {
  margin-left: 5%;
@@ -249,7 +260,7 @@ margin-left: 20px;
 
 
 .etoile{
-    padding-left: 10%;
+    margin-left: 8%;
           float: left;
 color: lightgrey;
 }
