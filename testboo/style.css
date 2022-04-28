@@ -197,6 +197,7 @@ h1 {
     font-size: 40px;
   
 }
+
 .premiercadre{
     display: flex;
     justify-content: space-between;
@@ -208,12 +209,12 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     border-radius: 15%;
-    width: 70%;
+    width: 75%;
+    /*taille cadre*/
     background-color: #f2f2f2;
-    /* background: crimson; */
 }
 .cadregauche h2{
-    width: 100%;
+    width: 1000px;
 margin-left: 10%;
 }
 .afficher{
@@ -222,8 +223,8 @@ justify-content: left;
 }
 .item {
     
-    width: 250px;
-    height: 300px;
+    width: 280px;
+    height: 220px;
     margin: 10px;
     border-radius: 10% 10% ;
     background-color: white;
@@ -240,27 +241,42 @@ margin-left: 8%;
  border-radius: 10% 10% 0% 0%;
 
     width: 90%;
-    height:auto;
+    height:50%;
 }
-
 
 
 .cadredroite {
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
     border-radius: 20px;
     flex-wrap: wrap;
     float: right;
-    width: 30%;
+    width: 40%;
     background-color: #f2f2f2;
 margin-left: 20px;
-
-    /* background: crimson; */
 }
 
-
-.etoile{
-    margin-left: 8%;
+.itemdroite{
+    display: inline-flex;
+        width: 390px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10% 10% ;
+    background-color: white;
+}
+.itemdroite img {
+    
+    width: 150px;
+    height: 130px;
+    margin-top:10px;
+    margin-left:10px;
+    border-radius: 10% 0% 0% 10%;
+    background-color: white;
+}
+.textedroite{
+    margin-left: 2%;
+}
+.droiteetoile{
+    margin-left: 5%;
           float: left;
 color: lightgrey;
 }
