@@ -247,8 +247,8 @@ margin-left: 3%;
 margin-left: 8%;
 }
 .item img {
- margin-left: 5%;
- margin-top: 5%;   
+ padding-left: 5%;
+ margin-top: 3%;   
  border-radius: 10% 10% 0% 0%;
 
     width: 90%;
@@ -265,8 +265,8 @@ color: lightgrey;
     border-radius: 20px;
     flex-wrap: wrap;
     float: right;
-    width: 40%;
-    background-color: #f2f2f2;
+    width: 60%;/*changer 40%*/
+        background-color: #f2f2f2;
 margin-left: 20px;
 }
 
@@ -276,7 +276,7 @@ margin-left: 20px;
     transition: 0.3s;
         width: 390px;
     height: 150px;
-    margin: 10px;
+    margin: 20px;
     border-radius: 10% 10% ;
     background-color: white;
 }
@@ -285,7 +285,6 @@ margin-left: 20px;
 
 }
 .itemdroite img {
-    
     width: 150px;
     height: 130px;
     margin-top:10px;
@@ -295,8 +294,11 @@ margin-left: 20px;
 }
 .textedroite{
     margin-left: 2%;
+    }
+    .cadredroite h4{
+        margin-bottom: 2%;
+    }
     
-}
 .cadredroite h2{
     margin-right: 20%;
     padding: 0%;
@@ -308,12 +310,22 @@ margin-left: 20px;
 .cadredroite h2{
     font-weight: bold;
     margin-left: 4%;
+   
 }
-
+.hotelmatin{
+    padding-bottom: 13%;
+}
+.bleublanc{
+    padding-bottom: 13%; 
+}
 .droiteetoile{
+    display: flex;
+    flex: wrap;
  float: left;
+ margin-top: 5%;
 color: lightgrey;
 }
+
 .checked{
  color: blue;
 }
