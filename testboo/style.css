@@ -750,18 +750,18 @@ color: lightgrey;
 
 .cadredroite {
     display: inline-flex;
-    border-radius: 20px;
+    border-radius: 0px;
     flex-wrap: wrap;
-    width: 70%;/*changer 40%*/
+    width: 73%;/*changer 40%*/
         background-color: #f2f2f2;
-margin-left: 8%;
+margin-left: 13%;
 }
 
 .itemdroite{
     display: inline-flex;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-        width: 80%;/*390px*/
+        width: 88%;/*390px*/
     height: 150px;
     margin: 5%;
     border-radius: 20px  ;
@@ -795,7 +795,7 @@ margin-left: 8%;
     padding: 0%;
 }
 .checked-right{
-       margin-top: 5%;
+       margin-top: 6%;
     padding: 0%;
 }
 .cadredroite h2{
