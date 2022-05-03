@@ -789,7 +789,11 @@ margin-left: 13%;
     .cadredroite h4{
         margin-bottom: 2%;
     }
-    
+    .scroll{
+        overflow-y: scroll;
+        scrollbar-color: rebeccapurple green;
+        scrollbar-width: thin;
+    }
 .cadredroite h2{
     margin-right: 15%;
     padding: 0%;
