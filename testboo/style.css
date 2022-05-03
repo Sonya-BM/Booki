@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,800;1,700&family=Satisfy&display=swap');
 body {
     box-sizing: border-box;
     width: 100%;
@@ -8,7 +9,9 @@ body {
 @media all{
     /*Partie desktop*/
   /*Partie desktop*/
-  header {
+
+   /*Partie desktop*/
+   header {
     display: flex;
     justify-content: space-between;
       align-items: center;
@@ -18,6 +21,9 @@ body {
   header nav {
       display: flex;
       justify-content: flex-end;
+  }
+  header img{
+      height: 30px;
   }
   header ul {
       display: flex;
@@ -53,33 +59,8 @@ body {
       margin-left:5%
   }
       .introtitre{
-  font-size: large; 
+  font-size: 23px; 
    }
-   /*Partie recherche*/
-   .rechercher{
-       display: flex;
-  }
-  form i{
-      padding: 1%;
-      background-color: #f2f2f2;
-      border-radius:10px 0px 0px 10px;
-  }
-  .input-intro{
-      border: 1px solid #f2f2f2;
-  width: 230px;
-  }
-  form input::placeholder{
-      padding-left: 20px;
-  }
-  .bouton-intro{
-      border-radius:0px 10px 10px 0px;
-      border: #0065fc;
-      background-color:#0065fc;
-      color: white;
-      font-weight: bold;
-      width: 130px;
-  }
-  
    /*Partie recherche*/
    .rechercher{
       display: flex;
@@ -189,15 +170,15 @@ body {
      color:blue;
      
   }
-
-
-h1 {
+  
+/*h1 {
     color: black;
     text-align: center;
     font-size: 40px;
   
-}
+}*/
 
+/*partie card*/
 .premiercadre{
     display: flex;
     justify-content: space-between;
@@ -351,8 +332,10 @@ color: lightgrey;
           align-items: center;
           margin-left: 5%;
       }
-      
-      header nav {
+      header img{
+        height: 30px;
+    }
+            header nav {
           display: flex;
           justify-content: flex-end;
       }
@@ -422,7 +405,7 @@ form input::placeholder{
     display: flex;
     justify-items: center;
  align-items: center;
- width: 80%;
+ width: 40%;
  margin-top: 2%;
  }
  .filtre h2{
@@ -437,8 +420,7 @@ form input::placeholder{
     background-color:#DEEBFF;
     width: 50px;
    height: 50px;
-   position: absolute;/*a verifier*/
-   margin-right: 10px;
+   position: absolute;
    align-items: center;
  }
  
@@ -448,20 +430,21 @@ form input::placeholder{
  border: 2px solid #f2f2f2;;
  border-radius: 20px;
  margin-left:2%;
+ margin-right: 15px;
  }
  .filtre div:hover{
      background-color: lightblue;
  }
  .icone-eco{
-     margin-left: 90px;
+     margin-left: -10px;
  }
  .economie{
-     margin-left: 60px;
+     margin-left: 35px;
      padding: 14px;
-    width: 90px;
+    width: 80px;
  }
  .icone-fam {
- margin-left: 290px;
+ margin-left: -10px;
  }
  .familial{
    margin-left: 60px;
@@ -470,7 +453,7 @@ form input::placeholder{
  }
  
  .icone-rom{
-     margin-left: 485px;
+     margin-left: -10px;
  
  }
  .romantique{
@@ -480,7 +463,7 @@ form input::placeholder{
  }
  
  .icone-ani{
-     margin-left: 700px;
+     margin-left: -10px;
  }
  .animaux{
      margin-left: 60px;
@@ -655,25 +638,112 @@ color: lightgrey;
 
 /*téléphone*/
 @media screen and (max-width:768px) {
-  .filtre{
+    header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 2%;
+     
+      }
+     
+header nav{
+    margin-left: 150px;
+    padding-left: 50px;
+}
+header img{
+    height: 30px;
+}
+      header ul {
+          display: flex;
+          justify-content: center;
+          border-bottom: 2px solid lightgrey;
+        }
+   
+      header li {
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          text-align: center;     
+          padding-bottom: 10px;
+          
+          /*Va créer l'espace pour le border*/
+      }
+      
+      header li:hover {
+      
+          border-bottom: 2px solid blue;
+          border-top: none; /*enleve la barre du haut*/
+        }
+      header nav a {
+        padding-bottom: 30px;
+          color: black;
+          text-decoration: none;
+
+                    }
+           header nav a:hover{
+            color:blue;
+        }
+/*Partie introduction*/
+
+.intro{
+    padding-top:3%;
+    margin-left:5%
+}
+    .introtitre{
+font-size: large; 
+ }
+ /*Partie recherche*/
+ .rechercher{
      display: flex;
-     flex-wrap:wrap;
-  }
-    .icone-eco {
-      display:flex;
+     
+}
+form i{
+    padding: 1%;
+    background-color: #f2f2f2;
+    border-radius:10px 0px 0px 10px;
+}
+.input-intro{
+    border: 1px solid #f2f2f2;
+width: 230px;
+}
+form input::placeholder{
+    padding-left: 20px;
+}
+.bouton-intro{
+    border-radius:0px 10px 10px 0px;
+    border: #0065fc;
+    background-color:#0065fc;
+    color: white;
+    font-weight: bold;
+    width: 130px;
+}
+/*Partie filtre*/
+
+.filtre{
+    display: flex;
+    flex-wrap:wrap;
+ }
+ .filtre h2{
+   
+     width: 100%;
+ }
+   .icone-eco {
+     display:flex;
 margin-left:-20px;
-    }
-  .icone-fam {
-    display:flex;
-    margin-left:-10px;
+   }
+ .icone-fam {
+   display:flex;
+   margin-left:-10px;
 }
 .icone-rom {
-    display: flex;
-    margin-left:-10px;
+   display: flex;
+   margin-left:-10px;
 }
 .icone-ani {
-    display:flex;
-    margin-left:-10px;
+   display:flex;
+   margin-left:-10px;
+
+
 }
  /*Partie card*/
  
