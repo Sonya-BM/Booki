@@ -685,51 +685,56 @@ color: lightgrey;
     header {
         display: flex;
         justify-content: center;
-       
         flex-direction: column;
-        
-     padding:2%;
-     margin-right: 35%;
+    padding-right:0%;
+    margin-right: 0%;
       }
      
 header nav{
     display: flex;
     justify-content: center;
-    margin-left: 80%;/*280*/
-    padding-left: 50px;
+    padding-right:0%;
+    margin-right:0%;
+    width: 100%;
+    /*280*/
+    /*padding-left: 50px;*/
+ /*50*/
 
 }
 header img{
     display: flex;
 justify-content: center;
-margin-left:38%;
-    height: 30px;
+margin-left:10%;
+    height: 40px;
 }
       header ul {
           display: flex;
           justify-content: center;
           border-bottom: 2px solid lightgrey;
-width: 700px;
-
+width: 788px;/*1000px*/
+padding-left: 8%;
         }
    
       header li {
           display: flex;
           justify-content: center;
           flex-wrap: wrap;
-          text-align: center;  
-          margin-right:0%;  
-          margin-bottom: -0.2%;
-          
+          text-align: center; 
+          margin-right: 0%;
+          margin-bottom: -0.1%;
+          padding-top: 5%;
+         
           padding-bottom: 10px;
          /*Va créer l'espace pour le border*/
         }
       .bordertop{
-          width: 315px;
+        width: 400px;/*430*/  
+        
                 }
                 .borderbottom{
-                    width: 300px;
-
+                    width: 382px;/*380*/
+                    padding-right:0%;
+                    margin-right: 0%;
                 }
       header li:hover {
       
@@ -740,7 +745,9 @@ width: 700px;
         padding-bottom: 30px;
           color: black;
           text-decoration: none;
-         
+          font-size: 18px;
+          text-align: center;
+          
                     }
            header nav a:hover{
             color:blue;
