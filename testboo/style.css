@@ -365,14 +365,15 @@ margin-left: 3%;
     border-radius: 30px;
     margin-right: 3%;
     width: 300px;
-    height: 480px;
+    height: 418px;
+    background-color: white;
 }
 .vieuxport:hover{
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
 
 }
 .vieuxport img{
-    height:400px;
+    height:370px;
     width:300px;
     border-radius: 30px 30px 0px 0px;
 
@@ -385,7 +386,7 @@ margin-left: 3%;
 /*Début Images paires*/
 .imagespairesgauche{
      margin-right: 3%;
-}
+    }
 .portpomegues{
     
 margin-bottom: 10%;
@@ -464,11 +465,15 @@ padding: 0%;
 /*Début images paires droite*/
 .imagespairesdroite{
     margin-right: 3%;
+    margin-left: 119%;
+margin-top:-480px;
+height: 500px;
 }
 
 .damegarde{
     height:190px;
        width:300px;
+       
     margin-bottom: 10%;
        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
        transition: 0.3s;
