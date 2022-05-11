@@ -1391,6 +1391,7 @@ margin-bottom: 3%;
 .vieuxport{
     width: 400px;
     height: 220px;
+    margin-bottom: 3%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border: 2px solid white;
@@ -1430,6 +1431,7 @@ margin-bottom: 3%;
     width: 400px;
     height: 220px;
     margin: auto;
+    margin-bottom: 3%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border: 2px solid white;
@@ -1461,6 +1463,7 @@ margin-bottom: 3%;
     width: 400px;
     height: 220px;
     margin: auto;
+    margin-bottom: 4%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border: 2px solid white;
@@ -1495,6 +1498,7 @@ margin-bottom: 3%;
 .calanques{
     width: 400px;
     height: 220px;
+    margin-bottom: 2%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border: 2px solid white;
@@ -1522,14 +1526,21 @@ margin-bottom: 3%;
 /*Fin calanques*/
 /*Début images paires droite*/
 .imagespairesdroite{
- 
-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 520px;
 }
 
 
 .damegarde{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     width: 400px;
     height: 220px;
+    margin: auto;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border: 2px solid white;
@@ -1556,8 +1567,13 @@ height: 500px;
 
 
 .longchamp{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     width: 400px;
     height: 220px;
+    margin: auto;
+    margin-bottom: 5%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border: 2px solid white;
