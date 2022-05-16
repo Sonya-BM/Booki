@@ -3,8 +3,9 @@
 body {
     box-sizing: border-box;
     width: 100%;
+    overflow-x: hidden; /*retire le scroll du bas*/
     font-family: 'Raleway', sans-serif;
-
+    margin-left: 0%;
     }
 @media all{
     /*Partie desktop*/
@@ -15,7 +16,9 @@ body {
     display: flex;
     justify-content: space-between;
       align-items: center;
-      margin-left: 5%;
+      margin-left: 4%;
+      margin-right: 5%;
+      padding-right: 0%;
   }
   
   header nav {
@@ -55,8 +58,11 @@ body {
   /*Partie introduction*/
   
   .intro{
+      width: 100%;
+      margin-right: 0%;
+      padding-right: 0%;
       padding-top:3%;
-      margin-left:5%
+      margin-left:4%
   }
       .introtitre{
   font-size: 23px; 
@@ -102,14 +108,13 @@ padding-right: 1%;
   /*Partie filtre*/
   .filtre{
      display: flex;
-    
-     justify-items: center;
+         justify-items: center;
   align-items: center;
   width: 80%;
   margin-top: 2%;
   }
   .filtre h2{
-  margin-right:2%;
+  margin: right 2%;
   }
   .filtre i{
      display: inline-flex;
@@ -132,6 +137,7 @@ padding-right: 1%;
   border: 2px solid #f2f2f2;;
   border-radius: 20px;
   margin-left:2%;
+
   }
   .filtre div:hover{
       background-color: lightblue;
@@ -173,9 +179,11 @@ padding-right: 1%;
   }
   .info{
       display: flex;
-  margin-top:20px ;    
+  margin-top:20px ; 
+  
   text-align: center;
   align-items: center;
+ 
   }
   .info i{
       border-radius: 100%;
@@ -199,7 +207,8 @@ padding-right: 1%;
     display: flex;
     justify-content: space-between;
     width:80%;
-    margin-left:5%;
+    margin-left:4%;
+   
 }
 .cadregauche {
     display: flex;
@@ -251,12 +260,12 @@ margin-left: 3%;
 margin-left: 8%;
 }
 .item img {
- padding-left: 5%;
- margin-top: 3%;   
- border-radius: 10% 10% 0% 0%;
-
-    width: 90%;
-    height:50%;
+    padding-left: 1%;
+    margin-top: 1.3%;   
+    border-radius: 25px 24px 0% 0%;
+   
+       width: 98%;
+       height:53%;
 }
 .etoilegauche{
     margin-left: 7%;
@@ -268,9 +277,10 @@ color: lightgrey;
     border-radius: 20px;
     flex-wrap: wrap;
     float: right;
-    width: 70%;/*changer 40%*/
+    width: 70%;/*changer 70%*/
         background-color: #f2f2f2;
 margin-left: 20px;
+
 }
 
 .itemdroite{
@@ -279,18 +289,19 @@ margin-left: 20px;
     transition: 0.3s;
         width: 390px;
     height: 150px;
-    margin: 5%;
+    margin: 3%;
     border-radius: 20px  ;
-    background-color: white;}
+    background-color: white;
+}
 .itemdroite:hover{
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
 
 }
 .itemdroite img {
     width: 150px;
-    height: 130px;
-    margin-top:10px;
-    margin-left:10px;
+    height: 143px;
+    margin-top:1%;
+    margin-left:1%;
     border-radius: 10% 0% 0% 10%;
     background-color: white;
 }
@@ -350,7 +361,7 @@ color: lightgrey;
   width:100%;
   height: 100%;
         margin-top: 5%;
-    margin-left:5%;
+    margin-left:4%;
     }
     .deuxiemecadre p{
         font-weight: bold;
@@ -372,7 +383,6 @@ margin-left: 3%;
 margin-bottom: 3%;
 }
 .vieuxport{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border: 2px solid white;
     border-radius: 30px;
@@ -843,12 +853,12 @@ margin-bottom: 3%;
 margin-left: 8%;
 }
 .item img {
- padding-left: 5%;
- margin-top: 3%;   
- border-radius: 10% 10% 0% 0%;
+ padding-left: 1%;
+ margin-top: 1.3%;   
+ border-radius: 25px 24px 0% 0%;
 
-    width: 90%;
-    height:50%;
+    width: 98%;
+    height:53%;
 }
 .etoilegauche{
     margin-left: 7%;
@@ -873,7 +883,7 @@ margin-top:5%;
     transition: 0.3s;
         width: 390px;
     height: 150px;
-    margin: 5%;
+    margin: 3%;
     border-radius: 20px  ;
     background-color: white;
 }
@@ -883,9 +893,9 @@ margin-top:5%;
 }
 .itemdroite img {
     width: 150px;
-    height: 130px;
-    margin-top:10px;
-    margin-left:10px;
+    height: 143px;
+    margin-top:1%;
+    margin-left:1%;
     border-radius: 10% 0% 0% 10%;
     background-color: white;
 }
@@ -1193,7 +1203,7 @@ margin-left:-10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
- 
+ margin-left: -1%;
     border-radius: 20px;
 
     width: 100%;
@@ -1221,12 +1231,11 @@ margin-left: 3%;
     
 }
 .item {
-
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 400px;
     height: 220px;
-     margin: 10px;/*margin 10px*/
+    margin:10px;
     border-radius: 10% 10% ;
     background-color: white;
 }
@@ -1244,12 +1253,12 @@ margin-left: 3%;
 margin-left: 8%;
 }
 .item img {
- padding-left: 2.5%;
- margin-top: 3%;   
- border-radius: 8% 10px 0px 0px;
-
-    width: 95%;
-    height:50%;
+    padding-left: 1%;
+    margin-top: 1.3%;   
+    border-radius: 25px 24px 0% 0%;
+   
+       width: 98%;
+       height:53%;
 }
 .etoilegauche{
     margin-left: 7%;
@@ -1272,7 +1281,7 @@ padding-right: 3%;
 .itemdroite{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-        width: 65%;/*390px*/
+        width: 80%;/*65%*/
     height: 170px;
     margin: 1%;
     border-radius: 20px  ;
@@ -1284,7 +1293,7 @@ padding-right: 3%;
 }
 .itemdroite img {
  
-    width: 150px;
+    width: 40%; /*150px*/
     height: 158px;
     margin-left: 1.2%;
     margin-right: 2%;
@@ -1373,7 +1382,7 @@ color: lightgrey;
     display: flex;
     flex-wrap: wrap;
     border-radius: 20px;
-    
+    margin-left: 1%;
     /*taille cadre*/
    
 }
@@ -1389,9 +1398,10 @@ margin-bottom: 3%;
 
 
 .vieuxport{
-    width: 400px;
+    width: 400px;/*400px*/
     height: 220px;
-    margin-bottom: 3%;
+    margin-bottom: 3%; 
+   /*espace droit pour telephone*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border: 2px solid white;
@@ -1430,7 +1440,7 @@ margin-bottom: 3%;
     flex-wrap: wrap;
     width: 400px;
     height: 220px;
-    margin: auto;
+    margin:auto;
     margin-bottom: 3%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -1530,7 +1540,7 @@ margin-bottom: 3%;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    height: 520px;
+    height: 520px; /*520px*/
 }
 
 
