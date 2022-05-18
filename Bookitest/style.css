@@ -1116,7 +1116,7 @@ font-size: 20px;
     justify-content: center; 
    height: 50px;
 }
-.rechercher p{
+.rechercher span{
     display: none;
 }
 .loupe{
