@@ -664,7 +664,7 @@ footer div{
     display: flex;
     height: 50px;
 }
-.rechercher h5{
+.rechercher span{
     display: none;
 }
 .loupe{
@@ -1042,6 +1042,7 @@ margin-left:5%;
        margin-right: 0%;
        padding-left: 0%;
      width: 100%;
+    
      border-bottom: 2px solid lightgrey;
         }
    
@@ -1063,6 +1064,7 @@ margin-left:5%;
         padding-right:0%;
         margin-left: 10%;
                 }
+              
      .borderbottom{
       /*100px*/
    
@@ -1071,7 +1073,7 @@ margin-left:5%;
                 }
       header li:hover {
       /*width: 500px;*/
-   
+      
      width: 100%;
           border-bottom: 2px solid blue;
           border-top: none; /*enleve la barre du haut*/
@@ -1085,6 +1087,7 @@ margin-left:5%;
           flex-basis: 50px;
           width: 100%;
                     }
+   
            header nav a:hover{
             color:blue;
         }
