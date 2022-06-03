@@ -755,7 +755,7 @@ body {
     display: flex;
     width: auto;
     margin-top: 5%;
-    margin-left: 2%;
+    margin-left: 4%;
     margin-right: 2%;
     height: 80px;
     text-align: center;
@@ -1090,10 +1090,24 @@ body {
     display: flex;
     margin-left: -10px;
   }
+  
   .info {
-    margin: auto;
+    display: flex;
+    width: auto;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    height: auto;
+    text-align: center;
+    font-size: 11px;
   }
-
+  .info p {
+    display: flex;
+    color: black;
+    margin-top: 18.75px;
+    text-align: center;
+    font-size: 15px;
+  }
   /*partie cards*/
 
   /*cards*/
@@ -1115,6 +1129,7 @@ body {
     width: 85%;
     height: 100%;
     margin: auto;
+    margin-bottom: 3%;
     background-color: white;
     border-radius: 30px;
   }
@@ -1131,7 +1146,7 @@ body {
     width: 80%;
     height: 70%;
     margin-left: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     border-radius: 20px;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -1179,6 +1194,7 @@ body {
   .afficherplus {
     display: flex;
     margin-left: 8%;
+    margin-top: 8%;
     font-weight: bold;
     font-size: 18px;
     width: 100%;
@@ -1197,6 +1213,8 @@ body {
     height: auto;
     width: 100%;
     margin: auto;
+    margin-bottom: 5%;
+    padding-bottom: 7%;
     background-color: #f2f2f2;
     border-radius: 0px;
   }
@@ -1204,7 +1222,7 @@ body {
     display: flex;
     width: auto;
     margin-top: 5%;
-    margin-left: 2%;
+    margin-left: 4%;
     margin-right: 2%;
     height: 100px;
     text-align: center;
@@ -1225,7 +1243,7 @@ body {
     display: flex;
     width: 90%;
     height: 35%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     border-radius: 20px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -1298,7 +1316,7 @@ body {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    margin-bottom: 24px;
+    margin-bottom: 17px;
   }
 
   .grandeimage {
@@ -1316,7 +1334,7 @@ body {
 
   .cadrecolonne {
     display: flex;
-    margin-bottom: 0%;
+    margin-bottom: 0px;
     flex-direction: column;
     height: 75%;
     width: 80%;
@@ -1324,7 +1342,7 @@ body {
   .moyencadre {
     height: 190px;
     border-radius: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 17px;
   }
   .textemoyenneimage {
     font-weight: bold;
@@ -1341,7 +1359,7 @@ body {
   .petitcadre {
     border-radius: 20px;
     height: 190px;
-    margin-bottom: 27px;
+    margin-bottom: 17px;
   }
   .petiteimage {
     object-fit: cover; /*donne une bonne qualité aux images*/
@@ -1352,7 +1370,7 @@ body {
   }
   .derniereimagesdroite {
     border-radius: 20px;
-    margin-bottom: 27px;
+    margin-bottom: 17px;
     height: 190px;
   }
   .derniereimage {
