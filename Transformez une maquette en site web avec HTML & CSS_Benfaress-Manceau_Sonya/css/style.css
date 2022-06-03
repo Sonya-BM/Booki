@@ -1019,8 +1019,11 @@ body {
     justify-content: center;
     margin: auto;
   }
-
+input{
+  width: 330px;
+}
   input::placeholder {
+    text-align: center;
     font-weight: bold;
     color: black;
   }
