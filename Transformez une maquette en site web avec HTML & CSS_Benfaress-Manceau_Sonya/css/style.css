@@ -835,30 +835,30 @@ margin-bottom: 1%;
   }
 
   /*activité marseille*/
+   
   section {
     display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap;
     margin-left: 42px;
-    margin-top: 20px;
+    margin-top: 15px;
   }
   section h2 {
     width: 100%;
   }
   section div {
-    margin: 5px;
+    margin: 3px;
     float: left;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 30px;
-    width: auto;
-    margin-right: 40px;
+    width: 100%;
+    margin-right: 20px;
   }
   section div:hover {
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
   }
   .grandcadre {
-    width: 30%;
+    width: 23%;
     height: 435px; /*390px*/
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -888,28 +888,30 @@ margin-bottom: 1%;
     margin-bottom: 0%;
     flex-direction: column;
     height: 100%;
+    width: 20%;
+    margin-right: 2.3%;
+
   }
   .moyencadre {
-    height: 227px;
     border-radius: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 27px;
+    height: 225px;
   }
 
   .moyenneimage {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-    width: 300px;
-    height: 174px;
+    width: 100%;
+    height: 175px;
   }
   .petitcadre {
     border-radius: 20px;
     height: 180px;
-    margin-bottom: 27px;
   }
   .petiteimage {
     object-fit: cover; /*donne une bonne qualité aux images*/
     border-radius: 20px 20px 0px 0px;
-    width: 300px;
+    width: 100%;
     height: 130px;
     background-color: white;
   }
@@ -921,10 +923,9 @@ margin-bottom: 1%;
   .derniereimage {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-    width: 300px;
+    width: 100%;
     height: 150px;
   }
-
   /*footer*/
 
   footer {
