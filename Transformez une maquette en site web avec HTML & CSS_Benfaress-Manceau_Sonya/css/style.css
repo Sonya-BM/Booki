@@ -177,7 +177,7 @@ body {
   .info {
     display: flex;
     margin-top: 20px;
-margin-bottom: 30px;
+    margin-bottom: 30px;
     text-align: center;
     align-items: center;
   }
@@ -208,8 +208,8 @@ margin-bottom: 30px;
     border-radius: 30px;
   }
   .cardhebergement h2 {
-margin-top: 4%;
-margin-bottom: 1%;
+    margin-top: 4%;
+    margin-bottom: 1%;
   }
 
   .card {
@@ -358,7 +358,7 @@ margin-bottom: 1%;
     width: 100%;
   }
   /*activité marseille*/
- 
+
   section {
     display: flex;
     flex-wrap: wrap;
@@ -395,8 +395,6 @@ margin-bottom: 1%;
     border-radius: 20px 20px 0px 0px;
   }
 
-
-
   .grandcadredeux {
     width: 23%;
     height: 435px; /*390px*/
@@ -410,13 +408,13 @@ margin-bottom: 1%;
     width: 100%;
     height: 89%;
     border-radius: 20px 20px 0px 0px;
-      }
-.textegrandeimagedeux{
-  font-weight: bold;
-  margin-top: 4px;
-  font-size: 15px;
-  margin-left: 15px;
-}
+  }
+  .textegrandeimagedeux {
+    font-weight: bold;
+    margin-top: 4px;
+    font-size: 15px;
+    margin-left: 15px;
+  }
 
   .textegrandeimage {
     font-weight: bold;
@@ -437,7 +435,6 @@ margin-bottom: 1%;
     height: 100%;
     width: 20%;
     margin-right: 2.5%;
-
   }
   .moyencadre {
     border-radius: 20px;
@@ -859,7 +856,7 @@ margin-bottom: 1%;
   }
 
   /*activité marseille*/
-   
+
   section {
     display: flex;
     flex-wrap: wrap;
@@ -908,8 +905,6 @@ margin-bottom: 1%;
     margin-left: 15px;
   }
 
-
-
   .grandcadredeux {
     width: 23%;
     height: 435px; /*390px*/
@@ -937,7 +932,6 @@ margin-bottom: 1%;
     margin-left: 15px;
   }
 
-
   .cadrecolonne {
     display: flex;
     margin-bottom: 0%;
@@ -945,7 +939,6 @@ margin-bottom: 1%;
     height: 100%;
     width: 20%;
     margin-right: 2.3%;
-
   }
   .moyencadre {
     border-radius: 20px;
@@ -1082,11 +1075,11 @@ margin-bottom: 1%;
   .barrederecherche {
     display: flex;
     justify-content: center;
-  margin: auto;
+    margin: auto;
   }
-input{
-  width: 100%;
-}
+  input {
+    width: 100%;
+  }
   input::placeholder {
     text-align: center;
     font-weight: bold;
@@ -1158,7 +1151,7 @@ input{
     display: flex;
     margin-left: -10px;
   }
-  
+
   .info {
     display: flex;
     width: auto;
@@ -1194,7 +1187,7 @@ input{
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-  width: 80%;
+    width: 80%;
     margin-bottom: 3%;
     background-color: white;
     border-radius: 30px;
@@ -1354,7 +1347,7 @@ input{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-       margin-left: 5%;
+    margin-left: 5%;
     margin-right: 3%;
     margin-top: 20px;
     margin-bottom: 250px;
@@ -1377,10 +1370,9 @@ input{
     margin-bottom: 18px;
     width: 98%;
     border-radius: 20px;
-  margin-right: 2%;
+    margin-right: 2%;
     height: 190px;
-   
-    }
+  }
 
   .grandeimage {
     object-fit: cover;
@@ -1394,15 +1386,13 @@ input{
     height: 141px;
   }
 
-
-
   .grandcadredeux {
     margin-bottom: 18px;
     width: 98%;
     border-radius: 20px;
-  margin-right: 2%;
+    margin-right: 2%;
     height: 190px;
-    }
+  }
 
   .grandeimagedeux {
     object-fit: cover;
@@ -1415,7 +1405,7 @@ input{
     width: 100%;
     height: 120px;
     margin-top: 1%;
-    font-size:15px;
+    font-size: 15px;
     margin-left: 5%;
   }
 
@@ -1448,7 +1438,7 @@ input{
   .petitcadre {
     border-radius: 20px;
     height: 190px;
-    }
+  }
   .petiteimage {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
