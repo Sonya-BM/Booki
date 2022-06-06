@@ -1305,63 +1305,64 @@ input{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-left: 42px;
+    margin-left: 5%;
+    margin-right: 3%;
     margin-top: 20px;
+    margin-bottom: 250px;
   }
   section h2 {
     width: 100%;
   }
   section div {
-    margin: 5px;
     float: left;
+    margin: auto;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 30px;
-    width: auto;
-    margin-right: 40px;
+    width: 100%;
   }
   section div:hover {
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
   }
   .grandcadre {
-    width: 73%;
-    height: 200px; /*390px*/
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    width: 98%;
     border-radius: 20px;
-    margin-bottom: 17px;
-  }
+  margin-right: 2%;
+    height: 190px;
+    }
 
   .grandeimage {
     object-fit: cover;
-    width: 100%;
-    height: 75%;
     border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 141px;
   }
   .textegrandeimage {
-    font-weight: bold;
-    margin-top: 15px;
-    font-size: 15px;
-    margin-left: 15px;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 141px;
   }
 
   .cadrecolonne {
     display: flex;
     margin-bottom: 0px;
     flex-direction: column;
-    height: 75%;
-    width: 80%;
-  }
-  .moyencadre {
-    height: 190px;
+    width: 100%;
     border-radius: 20px;
     margin-bottom: 17px;
+    height: 190px;
+  }
+  .moyencadre {
+    border-radius: 20px;
+    margin-bottom: 17px;
+    height: 190px;
   }
   .textemoyenneimage {
-    font-weight: bold;
-    margin-top: 15px;
-    font-size: 15px;
-    margin-left: 15px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 141px;
   }
   .moyenneimage {
     object-fit: cover;
@@ -1371,15 +1372,14 @@ input{
   }
   .petitcadre {
     border-radius: 20px;
-    height: 190px;
     margin-bottom: 17px;
+    height: 190px;
   }
   .petiteimage {
-    object-fit: cover; /*donne une bonne qualité aux images*/
+    object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     width: 100%;
     height: 141px;
-    background-color: white;
   }
   .derniereimagesdroite {
     border-radius: 20px;
