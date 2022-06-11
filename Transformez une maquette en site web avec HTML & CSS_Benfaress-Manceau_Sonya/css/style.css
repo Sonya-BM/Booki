@@ -95,6 +95,8 @@ body {
   }
   .filtre h2 {
     font-size: 20px;
+    margin-right:30px ;
+
   }
   .filtre i {
     display: inline-flex;
@@ -130,11 +132,13 @@ body {
     justify-content: flex-start;
     margin-left: -10px;
   }
-  .nomfiltre{
+  .filtretheme{
     display: flex;
-padding-right:80px
+padding-right:80px;
+margin-right:10px;
+margin-bottom: 10px;
   }
-  .nomfiltre span {
+  .filtretheme span {
     display: flex;
     justify-content: flex-end;
     margin-left: 50px;
@@ -548,6 +552,7 @@ padding-right:80px
   }
   .filtre h2 {
     font-size: 20px;
+    margin-right:30px ;
   }
   .filtre i {
     display: inline-flex;
@@ -583,11 +588,13 @@ padding-right:80px
     justify-content: flex-start;
     margin-left: -10px;
   }
-  .nomfiltre{
+  .filtretheme{
     display: flex;
-padding-right:80px
+padding-right:80px;
+margin-right:10px;
+margin-bottom: 10px;
   }
-  .nomfiltre span {
+  .filtretheme span {
     display: flex;
     justify-content: flex-end;
     margin-left: 50px;
@@ -1063,12 +1070,12 @@ padding-right:80px
     justify-content: flex-start;
     margin-left: -10px;
   }
-  .nomfiltre{
+  .filtretheme{
     display: flex;
     flex-wrap: wrap;
 padding-right:80px
   }
-  .nomfiltre span {
+  .filtretheme span {
     display: flex;
     justify-content: flex-end;
     margin-left: 50px;
