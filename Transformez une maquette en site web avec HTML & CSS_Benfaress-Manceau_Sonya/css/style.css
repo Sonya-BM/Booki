@@ -380,7 +380,7 @@ body {
   section div:hover {
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
   }
-  .grandcadre {
+  .cadrevertical {
     width: 23%;
     height: 435px; /*390px*/
     background-color: white;
@@ -388,47 +388,21 @@ body {
     border-radius: 20px;
   }
 
-  .grandeimage {
+  .cadreverticalimage {
     object-fit: cover;
     width: 100%;
     height: 89%;
     border-radius: 20px 20px 0px 0px;
   }
 
-  .grandcadredeux {
-    width: 23%;
-    height: 435px; /*390px*/
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-  }
-
-  .grandeimagedeux {
-    object-fit: cover;
-    width: 100%;
-    height: 89%;
-    border-radius: 20px 20px 0px 0px;
-  }
-  .textegrandeimagedeux {
+  .cadreverticaltexte {
     font-weight: bold;
     margin-top: 4px;
     font-size: 15px;
     margin-left: 15px;
   }
 
-  .textegrandeimage {
-    font-weight: bold;
-    margin-top: 4px;
-    font-size: 15px;
-    margin-left: 15px;
-  }
-  .textemoyenneimage {
-    font-weight: bold;
-    margin-top: 4px;
-    font-size: 15px;
-    margin-left: 15px;
-  }
-  .cadrecolonne {
+   .cadredoublecadre {
     display: flex;
     margin-bottom: 0%;
     flex-direction: column;
@@ -436,39 +410,57 @@ body {
     width: 20%;
     margin-right: 2.5%;
   }
-  .moyencadre {
+  .cadregrand {
     border-radius: 20px;
     margin-bottom: 27px;
     height: 225px;
   }
-
-  .moyenneimage {
+  .cadregrandimage {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     width: 100%;
     height: 175px;
   }
+  .cadregrandtexte {
+    font-weight: bold;
+    margin-top: 4px;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  
   .petitcadre {
     border-radius: 20px;
     height: 180px;
   }
-  .petiteimage {
+  .petitecadreimage {
     object-fit: cover; /*donne une bonne qualité aux images*/
     border-radius: 20px 20px 0px 0px;
     width: 100%;
     height: 130px;
     background-color: white;
   }
-  .derniereimagesdroite {
+  .petitcadretexte {
+    font-weight: bold;
+    margin-top: 4px;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  .cadremoyen {
     border-radius: 20px;
     margin-bottom: 27px;
     height: 200px;
   }
-  .derniereimage {
+  .cadremoyenimage {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     width: 100%;
     height: 150px;
+  }
+  .cadremoyentexte {
+    font-weight: bold;
+    margin-top: 4px;
+    font-size: 15px;
+    margin-left: 15px;
   }
   /*footer*/
 
@@ -878,7 +870,7 @@ body {
   section div:hover {
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
   }
-  .grandcadre {
+  .cadrevertical {
     width: 23%;
     height: 435px; /*390px*/
     background-color: white;
@@ -886,53 +878,23 @@ body {
     border-radius: 20px;
   }
 
-  .grandeimage {
+  .cadreverticalimage {
     object-fit: cover;
     width: 100%;
     height: 89%;
     border-radius: 20px 20px 0px 0px;
   }
-  .textegrandeimage {
+  .cadreverticaltexte {
     font-weight: bold;
     margin-top: 4px;
     font-size: 15px;
     margin-left: 15px;
   }
-  .textemoyenneimage {
-    font-weight: bold;
-    margin-top: 4px;
-    font-size: 15px;
-    margin-left: 15px;
-  }
-
-  .grandcadredeux {
-    width: 23%;
-    height: 435px; /*390px*/
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-  }
-
-  .grandeimagedeux {
-    object-fit: cover;
-    width: 100%;
-    height: 89%;
-    border-radius: 20px 20px 0px 0px;
-  }
-  .textegrandeimagedeux {
-    font-weight: bold;
-    margin-top: 4px;
-    font-size: 15px;
-    margin-left: 15px;
-  }
-  .textemoyenneimagedeux {
-    font-weight: bold;
-    margin-top: 4px;
-    font-size: 15px;
-    margin-left: 15px;
-  }
-
-  .cadrecolonne {
+ 
+ 
+ 
+ 
+  .cadredoublecadre {
     display: flex;
     margin-bottom: 0%;
     flex-direction: column;
@@ -940,39 +902,59 @@ body {
     width: 20%;
     margin-right: 2.3%;
   }
-  .moyencadre {
+ 
+   .cadregrand {
     border-radius: 20px;
     margin-bottom: 27px;
     height: 225px;
   }
 
-  .moyenneimage {
+  .cadregrandimage {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     width: 100%;
     height: 175px;
   }
-  .petitcadre {
+  .cadregrandtexte {
+    font-weight: bold;
+    margin-top: 4px;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+
+   .petitcadre {
     border-radius: 20px;
     height: 180px;
   }
-  .petiteimage {
+  .petitecadreimage {
     object-fit: cover; /*donne une bonne qualité aux images*/
     border-radius: 20px 20px 0px 0px;
     width: 100%;
     height: 130px;
     background-color: white;
   }
-  .derniereimagesdroite {
+  .petitcadretexte{
+    font-weight: bold;
+    margin-top: 4px;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  .cadremoyen {
     border-radius: 20px;
     margin-bottom: 27px;
     height: 200px;
   }
-  .derniereimage {
+  .cadremoyenimage {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     width: 100%;
     height: 150px;
+  }
+  .cadremoyentexte{
+    font-weight: bold;
+    margin-top: 4px;
+    font-size: 15px;
+    margin-left: 15px;
   }
   /*footer*/
 
@@ -1350,7 +1332,6 @@ body {
     margin-left: 5%;
     margin-right: 3%;
     margin-top: 20px;
-    margin-bottom: 250px;
   }
   section h2 {
     width: 100%;
@@ -1366,7 +1347,7 @@ body {
   section div:hover {
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
   }
-  .grandcadre {
+  .cadrevertical {
     margin-bottom: 18px;
     width: 98%;
     border-radius: 20px;
@@ -1374,62 +1355,38 @@ body {
     height: 190px;
   }
 
-  .grandeimage {
+  .cadreverticalimage {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     width: 100%;
     height: 141px;
   }
-  .textegrandeimage {
+  .cadreverticaltexte {
     border-radius: 20px 20px 0px 0px;
     width: 100%;
     height: 141px;
   }
 
-  .grandcadredeux {
-    margin-bottom: 18px;
-    width: 98%;
-    border-radius: 20px;
-    margin-right: 2%;
-    height: 190px;
-  }
-
-  .grandeimagedeux {
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
-    width: 100%;
-    height: 141px;
-  }
-  .textegrandeimagedeux {
-    border-radius: 20px 20px 0px 0px;
-    width: 100%;
-    height: 120px;
-    margin-top: 1%;
-    font-size: 15px;
-    margin-left: 5%;
-  }
-
-  .cadrecolonne {
+  .cadredoublecadre {
     display: flex;
     margin-bottom: 0px;
     flex-direction: column;
     width: 100%;
     border-radius: 20px;
     margin-bottom: 17px;
-    height: 190px;
   }
-  .moyencadre {
+  .cadregrand {
     border-radius: 20px;
     margin-bottom: 17px;
     height: 190px;
   }
-  .textemoyenneimage {
+  .cadregrandtexte {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     width: 100%;
     height: 141px;
   }
-  .moyenneimage {
+  .cadregrandimage {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     width: 100%;
@@ -1445,12 +1402,12 @@ body {
     width: 100%;
     height: 141px;
   }
-  .derniereimagesdroite {
+  .cadremoyen {
     border-radius: 20px;
     margin-bottom: 17px;
     height: 190px;
   }
-  .derniereimage {
+  .cadremoyenimage {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     width: 100%;
