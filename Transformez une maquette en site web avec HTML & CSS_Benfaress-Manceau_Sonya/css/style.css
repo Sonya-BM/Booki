@@ -95,8 +95,7 @@ body {
   }
   .filtre h2 {
     font-size: 20px;
-    margin-right:30px ;
-
+    margin-right: 30px;
   }
   .filtre i {
     display: inline-flex;
@@ -127,16 +126,16 @@ body {
   .filtre div:hover {
     background-color: lightblue;
   }
-  .iconefiltre  {
+  .iconefiltre {
     display: flex;
     justify-content: flex-start;
     margin-left: -10px;
   }
-  .filtretheme{
+  .filtretheme {
     display: flex;
-padding-right:80px;
-margin-right:10px;
-margin-bottom: 10px;
+    padding-right: 80px;
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
   .filtretheme span {
     display: flex;
@@ -174,7 +173,7 @@ margin-bottom: 10px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 59%; /*55%*/
+    width: 59%;
     height: 100%;
     margin-left: 3%;
     padding: 1%;
@@ -207,7 +206,7 @@ margin-bottom: 10px;
     justify-content: space-evenly;
     object-fit: cover;
     width: 97%;
-    height: 112px; /*112*/
+    height: 112px;
     margin: 1%;
     margin-bottom: -3%;
     border-radius: 20px 20px 0px 0px;
@@ -356,7 +355,7 @@ margin-bottom: 10px;
   }
   .cadrevertical {
     width: 23%;
-    height: 435px; /*390px*/
+    height: 435px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -376,7 +375,7 @@ margin-bottom: 10px;
     margin-left: 15px;
   }
 
-   .cadredoublecadre {
+  .cadredoublecadre {
     display: flex;
     margin-bottom: 0%;
     flex-direction: column;
@@ -401,7 +400,7 @@ margin-bottom: 10px;
     font-size: 15px;
     margin-left: 15px;
   }
-  
+
   .petitcadre {
     border-radius: 20px;
     height: 180px;
@@ -552,7 +551,7 @@ margin-bottom: 10px;
   }
   .filtre h2 {
     font-size: 20px;
-    margin-right:30px ;
+    margin-right: 30px;
   }
   .filtre i {
     display: inline-flex;
@@ -583,16 +582,16 @@ margin-bottom: 10px;
   .filtre div:hover {
     background-color: lightblue;
   }
-  .iconefiltre  {
+  .iconefiltre {
     display: flex;
     justify-content: flex-start;
     margin-left: -10px;
   }
-  .filtretheme{
+  .filtretheme {
     display: flex;
-padding-right:80px;
-margin-right:10px;
-margin-bottom: 10px;
+    padding-right: 80px;
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
   .filtretheme span {
     display: flex;
@@ -624,7 +623,6 @@ margin-bottom: 10px;
 
   /*partie cards*/
 
-  /*cards*/
   .hebergementpopulaire {
     display: flex;
     flex-wrap: wrap;
@@ -820,7 +818,7 @@ margin-bottom: 10px;
   }
   .cadrevertical {
     width: 23%;
-    height: 435px; /*390px*/
+    height: 435px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -838,10 +836,7 @@ margin-bottom: 10px;
     font-size: 15px;
     margin-left: 15px;
   }
- 
- 
- 
- 
+
   .cadredoublecadre {
     display: flex;
     margin-bottom: 0%;
@@ -850,8 +845,8 @@ margin-bottom: 10px;
     width: 20%;
     margin-right: 2.3%;
   }
- 
-   .cadregrand {
+
+  .cadregrand {
     border-radius: 20px;
     margin-bottom: 27px;
     height: 225px;
@@ -870,7 +865,7 @@ margin-bottom: 10px;
     margin-left: 15px;
   }
 
-   .petitcadre {
+  .petitcadre {
     border-radius: 20px;
     height: 180px;
   }
@@ -881,7 +876,7 @@ margin-bottom: 10px;
     height: 130px;
     background-color: white;
   }
-  .petitcadretexte{
+  .petitcadretexte {
     font-weight: bold;
     margin-top: 4px;
     font-size: 15px;
@@ -898,7 +893,7 @@ margin-bottom: 10px;
     width: 100%;
     height: 150px;
   }
-  .cadremoyentexte{
+  .cadremoyentexte {
     font-weight: bold;
     margin-top: 4px;
     font-size: 15px;
@@ -1065,15 +1060,15 @@ margin-bottom: 10px;
     font-size: 20px;
     float: left;
   }
-  .iconefiltre  {
+  .iconefiltre {
     display: flex;
     justify-content: flex-start;
     margin-left: -10px;
   }
-  .filtretheme{
+  .filtretheme {
     display: flex;
     flex-wrap: wrap;
-padding-right:80px
+    padding-right: 80px;
   }
   .filtretheme span {
     display: flex;
@@ -1103,9 +1098,8 @@ padding-right:80px
     text-align: center;
     font-size: 15px;
   }
-  /*partie cards*/
 
-  /*cards*/
+  /*partie cards*/
   .hebergementpopulaire {
     display: flex;
     flex-direction: column-reverse;
