@@ -125,54 +125,24 @@ body {
   .filtre div:hover {
     background-color: lightblue;
   }
-  .icone-eco {
+  .iconefiltre  {
+    display: flex;
+    justify-content: flex-start;
     margin-left: -10px;
   }
-  .economie {
+  .nomfiltre{
+    display: flex;
+padding-right:80px
+  }
+  .nomfiltre span {
+    display: flex;
+    justify-content: flex-end;
     margin-left: 50px;
     margin-right: -50px;
     padding-left: 5px;
     padding-top: 14px;
     padding-bottom: 14px;
     padding-right: 0px;
-    width: 160px;
-  }
-  .icone-fam {
-    margin-left: -10px;
-  }
-  .familial {
-    margin-left: 50px;
-    margin-right: -80px;
-    padding-left: 5px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-right: 0px;
-    width: 160px;
-  }
-
-  .icone-rom {
-    margin-left: -10px;
-  }
-  .romantique {
-    margin-left: 50px;
-    margin-right: -45px;
-    padding-left: 5px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-right: 0px;
-    width: 160px;
-  }
-
-  .icone-ani {
-    margin-left: -10px;
-  }
-  .animaux {
-    margin-left: 50px;
-    padding-left: 5px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-right: 0px;
-    width: 160px;
   }
   .info {
     display: flex;
@@ -608,55 +578,26 @@ body {
   .filtre div:hover {
     background-color: lightblue;
   }
-  .icone-eco {
+  .iconefiltre  {
+    display: flex;
+    justify-content: flex-start;
     margin-left: -10px;
   }
-  .economie {
+  .nomfiltre{
+    display: flex;
+padding-right:80px
+  }
+  .nomfiltre span {
+    display: flex;
+    justify-content: flex-end;
     margin-left: 50px;
     margin-right: -50px;
     padding-left: 5px;
     padding-top: 14px;
     padding-bottom: 14px;
     padding-right: 0px;
-    width: 160px;
-  }
-  .icone-fam {
-    margin-left: -10px;
-  }
-  .familial {
-    margin-left: 50px;
-    margin-right: -80px;
-    padding-left: 5px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-right: 0px;
-    width: 160px;
   }
 
-  .icone-rom {
-    margin-left: -10px;
-  }
-  .romantique {
-    margin-left: 50px;
-    margin-right: -45px;
-    padding-left: 5px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-right: 0px;
-    width: 160px;
-  }
-
-  .icone-ani {
-    margin-left: -10px;
-  }
-  .animaux {
-    margin-left: 50px;
-    padding-left: 5px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-right: 0px;
-    width: 160px;
-  }
   .info {
     display: flex;
     margin-top: 20px;
@@ -1102,7 +1043,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 70%;
+    width: 90%;
   }
   .filtre span {
     color: black;
@@ -1117,21 +1058,25 @@ body {
     font-size: 20px;
     float: left;
   }
-  .icone-eco {
+  .iconefiltre  {
     display: flex;
+    justify-content: flex-start;
     margin-left: -10px;
   }
-  .icone-fam {
+  .nomfiltre{
     display: flex;
-    margin-left: -10px;
+    flex-wrap: wrap;
+padding-right:80px
   }
-  .icone-rom {
+  .nomfiltre span {
     display: flex;
-    margin-left: -10px;
-  }
-  .icone-ani {
-    display: flex;
-    margin-left: -10px;
+    justify-content: flex-end;
+    margin-left: 50px;
+    margin-right: -50px;
+    padding-left: 5px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 0px;
   }
 
   .info {
