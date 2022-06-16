@@ -29,8 +29,8 @@ body {
     padding-top: 53px;
   }
   header a:hover {
-    border-top: 2px solid blue;
-    color: blue;
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
     padding-top: 53px;
   }
   /*recherche*/
@@ -78,9 +78,11 @@ body {
     background-color: #0065fc;
     border: none;
   }
+  button a{
+    text-decoration: none;
+  }
   button span {
     font-weight: bold;
-
     color: white;
   }
   /*filtres*/
@@ -93,6 +95,9 @@ body {
     margin-top: 0%;
     margin-left: 40px;
   }
+  .filtre a{
+    text-decoration: none;
+  }
   .filtre h2 {
     font-size: 20px;
     margin-right: 30px;
@@ -100,7 +105,7 @@ body {
   .filtre i {
     display: inline-flex;
     justify-content: center;
-    color: blue;
+    color: #0065fc;
     border: #0065fc;
     border-radius: 100%;
     background-color: #deebff;
@@ -161,7 +166,7 @@ body {
     width: 15px;
     margin-left: 40px;
     margin-right: 10px;
-    color: blue;
+    color: #0065fc;
   }
   /*cards*/
   .hebergementpopulaire {
@@ -214,7 +219,11 @@ body {
   .content {
     margin-left: 5%;
   }
-  h6.nomhotel {
+  .content a{
+    text-decoration: none;
+    color: black;
+  }
+  h3.nomhotel {
     margin-top: 12%;
     font-size: 15px;
     width: 100%;
@@ -311,8 +320,11 @@ body {
   .contentpopulaire {
     margin-left: 3%;
   }
-
-  h6.nomhotelpopulaire {
+  .contentpopulaire a{
+    text-decoration: none;
+    color: black;
+  }
+  h3.nomhotelpopulaire {
     width: 95%;
     font-weight: bold;
     font-size: 15px;
@@ -360,7 +372,10 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 20px;
   }
-
+.cadrevertical a{
+  color: black;
+  text-decoration: none;
+}
   .cadreverticalimage {
     object-fit: cover;
     width: 100%;
@@ -387,6 +402,10 @@ body {
     border-radius: 20px;
     margin-bottom: 27px;
     height: 225px;
+  }
+  .cadregrand a{
+    color: black;
+    text-decoration: none;
   }
   .cadregrandimage {
     object-fit: cover;
@@ -418,10 +437,18 @@ body {
     font-size: 15px;
     margin-left: 15px;
   }
+  .petitcadre a{
+    color: black;
+    text-decoration: none;
+  }
   .cadremoyen {
     border-radius: 20px;
     margin-bottom: 27px;
     height: 200px;
+  }
+  .cadremoyen a{
+    color: black;
+    text-decoration: none;
   }
   .cadremoyenimage {
     object-fit: cover;
@@ -438,24 +465,37 @@ body {
   /*footer*/
 
   footer {
-    display: flex;
+    display:flex;
     justify-content: flex-start;
     text-align: start;
     width: 100%;
-    height: 245px;
+    height: auto;
+    margin: auto;
     background-color: #f2f2f2;
   }
+  footer div{
+    display: block;
+   margin: auto;
+   margin-top: 0px;
+  height: 100%;
+  }
+  footer a{
+    color: black;
+    text-decoration: none;
+  }
+ 
   .titrefooter {
+    display: inline-flex;
+    justify-content: space-between;
     font-weight: bold;
     font-size: 17px;
+
     margin-bottom: 18px;
-    margin-top: 40px;
   }
 
   footer ul {
-    margin-left: 10px;
     list-style: none;
-    width: 100%;
+    padding-left: 0px;
   }
   footer li {
     margin-bottom: 15px;
@@ -487,8 +527,8 @@ body {
     padding-top: 53px;
   }
   header a:hover {
-    border-top: 2px solid blue;
-    color: blue;
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
     padding-top: 53px;
   }
   /*recherche*/
@@ -556,7 +596,7 @@ body {
   .filtre i {
     display: inline-flex;
     justify-content: center;
-    color: blue;
+    color: #0065fc;
     border: #0065fc;
     border-radius: 100%;
     background-color: #deebff;
@@ -618,7 +658,7 @@ body {
     width: 15px;
     margin-left: 40px;
     margin-right: 10px;
-    color: blue;
+    color: #0065fc;
   }
 
   /*partie cards*/
@@ -744,7 +784,7 @@ body {
   .cardpopulaire {
     display: flex;
     width: 88%;
-    height: 18%;
+    height: 20%;
     margin-bottom: 15%;
     border-radius: 20px;
     background-color: white;
@@ -901,30 +941,7 @@ body {
   }
   /*footer*/
 
-  footer {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    text-align: start;
-    width: 100%;
-    height: 100%;
-    background-color: #f2f2f2;
-  }
-  .titrefooter {
-    font-weight: bold;
-    font-size: 17px;
-    margin-bottom: 18px;
-    margin-top: 40px;
-  }
 
-  footer ul {
-    margin-left: 10px;
-    list-style: none;
-    width: 20px;
-  }
-  footer li {
-    margin-bottom: 15px;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -971,9 +988,9 @@ body {
     padding-bottom: 15px;
   }
   header a:hover {
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #0065fc;
     border-top: none;
-    color: blue;
+    color: #0065fc;
   }
   /*recherche*/
   form {
